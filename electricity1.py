@@ -30,10 +30,6 @@ In recent years, alternative energy sources, such as solar power, have gained at
 image_url = "https://images.app.goo.gl/cJUCY2Bgi82Xfdoe9"
 st.image(image_url, caption="Lebanon's Electricity Infrastructure", use_column_width=True)
 
-image_path = r"C:\Users\user\Downloads\edl.jpg"  # Raw string
-st.image(image_path, caption="Lebanon's Electricity Infrastructure", use_column_width=True)
-
-
 # Multi-select for refArea to compare multiple areas
 ref_area = st.multiselect("Select RefArea(s):", df['refArea'].unique(), default=[df['refArea'].iloc[0]])
 
