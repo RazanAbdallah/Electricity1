@@ -27,7 +27,7 @@ In recent years, alternative energy sources, such as solar power, have gained at
 """)
 
 # Adding an image related to electricity infrastructure in Lebanon
-image_url = "https://images.app.goo.gl/WgDzLwerJMqJ4obJ7"
+image_url = "https://images.app.goo.gl/cJUCY2Bgi82Xfdoe9"
 st.image(image_url, caption="Lebanon's Electricity Infrastructure", use_column_width=True)
 
 # Multi-select for refArea to compare multiple areas
